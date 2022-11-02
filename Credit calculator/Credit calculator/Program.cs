@@ -2,7 +2,11 @@
 
 string username = "admin";
 string password = "admin";
-
+int price;
+int month;
+string percent;
+int sumprice;
+int monpayment;
 tryagain:
 Console.WriteLine("Istifadeci adi daxil edin.");
 string logusername = Console.ReadLine();
